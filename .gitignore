@@ -1,0 +1,22 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables
+.env
+
+# Ignore virtual environments
+venv/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore FAISS index directory
+faiss_index/
+
+# Ignore other sensitive or large files
+secrets.json
+data/
